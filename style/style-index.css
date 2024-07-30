@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Monserrat';
+    src: url(/proyecto/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html{
+    background-color: #ceeae6;
+    display: block;
+    font-family:'Monserrat' ;
+
+}
+.e{
+    position: absolute;
+    left: 12%;
+    top: 5%;
+    font-size: 20px;
+}
+#img{
+    position: absolute;
+    width: 80%;
+    left: 9.5%;
+    top: 2.5%;
+    border-radius: 12px;
+}
+
+#formLogin, #formRegister, #formEmail, #formNewpassword{
+    width: 20%;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+}
+
+.button{
+    height: 8%;
+    width: 80%;
+    top: 74%;
+    left: 10%;
+
+    font-family:'Monserrat';
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+}
+.button:hover{
+    background-color: #544949;
+    color: white;
+}
+.button:active{
+    background-color: #e7e4e4;
+}
+
+input{
+    border: none;
+    width: 79%; 
+    border-radius: 12px;
+}

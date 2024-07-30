@@ -1,0 +1,90 @@
+@font-face {
+    font-family:'Monserrat';
+    src: url(/proyecto/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html, body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    position: absolute;
+    top: 6%;
+    left: 2.2%;
+
+    width: 95%;
+    height: 90%;
+}
+
+#canvas{
+    position: absolute;
+    background: #99D9EA;
+}
+
+#score{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    font-size: 30px;
+    font-family:'Monserrat';
+}
+
+/* Menu */
+
+#menu{
+    position: absolute;
+    top: 6%;
+    left: 2.2%;
+    width: 95%;
+    height: 90%;
+}
+
+#canvasMenu{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+#txt{
+    position: absolute;
+    top: 58%;
+    left: 38%;
+    font-size: 30px;
+    font-family:'Monserrat';
+}
+#imgSpace{
+    width: 250%;
+    left: 0%;
+    top: 35%;
+}
+#p2{
+    margin: 20% -300% 0% 260%;
+}
+
+
+#newScore{
+    position: absolute;
+    top: 36%;
+    left: 43.7%;
+    font-size: 30px;
+    font-family:'Monserrat';
+}
+#back{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    font-size: 25px;
+    font-family:'Monserrat';
+}
+img{
+    position: absolute;
+    width: 50%;
+    left: 48%;
+    top: 20%;
+}
+#p1{
+    margin: -10% 0% 0% 0%;
+}

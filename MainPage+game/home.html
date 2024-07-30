@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>home!</title>
+    <link rel="stylesheet" href="/proyecto/style/style-home.css" />
+  </head>
+
+  <body>
+    
+    
+    <main id="backgroud">
+
+      <section id="main">
+        
+        <img id="video" src="/proyecto/images/videoTuto1.gif">
+        <p id="spacetxt">Press</p>
+        <img id="space" src="/proyecto/images/space.png">
+        <p id="spacetxt1">To jump</p>
+        
+
+
+        <div id="skinMenu" style="display: none;">
+          <canvas id ="canvasSkin"></canvas>
+
+          <button type="button" class ="s" id ="skin1" ></button>
+          <p id="p1">default</p>
+
+          <button type="button" class ="s" id ="skin2" ></button>
+          <p id="p2">30 highscore</p>
+
+          <button type="button" class ="s" id ="skin3" ></button>      
+          <p id="p3">60 highscore</p>
+
+          <button type="button" class ="s" id ="skin4" ></button>        
+          <p id="p4">120 highscore</p>
+
+          <button type="button" class ="s" id ="skin5" ></button>       
+          <p id="p5">180 highscore</p>
+
+          <button type="button" class ="s" id ="skin6" ></button>
+          <p id="p6">240 highscore</p>
+
+        </div>
+      </section>
+
+
+      <section id="hightScore">
+        <p id="name"></p>
+        <p id="score">HighScore</p>
+        <p id="scoreNumber"  name="scoreNumber"></p>
+        <button id="play" onclick="goPlay()">Play</button>
+
+        <button id="skinButton" onclick= "openSkins()">skins</button>
+        <button id="logout"><a href="/proyecto/backend/logout.php">cerrrar sesion</a></button>
+        
+      </section>
+      
+    </main>
+    
+    <script src="/proyecto/scripts/script-home.js"></script>
+
+  </body>
+</html>

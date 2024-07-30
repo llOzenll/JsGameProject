@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Monserrat';
+    src: url(/proyecto/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html, body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family:'Monserrat';
+}
+
+
+/* Main */
+#main{
+    position: absolute;
+    width: 70%;
+    height: 91%;
+    top: 5%;
+    left: 2%;
+    background-color: #9DDDE8;
+    border-radius: 12px;
+}
+
+#space{
+    position: absolute;
+    width: 28%;
+    top: 30%;
+    left: 38%;
+}
+#spacetxt{
+    position: absolute;
+    top: 22.5%;
+    left: 39%;
+    font-size: 20px;
+}
+#spacetxt1{
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    font-size: 20px;
+}
+
+#video{
+    position: absolute;
+    width: 94.9%;
+    top: 5%;
+    left: 2.5%;
+    border-radius: 12px;
+    border: none;
+}
+
+
+/* ScoreSection */
+#hightScore{
+    position: absolute;
+    width: 24%;
+    height: 91%;
+    top: 5%;
+    left: 74%;
+    background-color: #9DDDE8;
+    border-radius: 12px;
+}
+#score{
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+#scoreNumber{
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    
+}
+#play{
+    position: absolute;
+    height: 8%;
+    width: 80%;
+    top: 87%;
+    left: 10%;
+
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+#play:hover{
+    background-color: #544949;
+    color: white;
+}
+
+
+/* SkinsMenu */
+#skinMenu{
+    position: absolute;
+    text-align: center;
+    width: 95%;
+    height: 86.5%;
+    top: 5%;
+    left: 2.5%;
+}  
+#canvasSkin{
+    position: absolute;
+    background: #9DDDE8;
+    text-align: center;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+
+
+/* skins */
+#skin1{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 10%;
+    left: 5%;
+    
+    background-image: url(/proyecto/images/circle.png);
+}
+
+
+#skin2{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 10%;
+    left: 37.6%;
+
+    background-image: url(/proyecto/images/circle.png);
+}
+
+
+#skin3{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 10%;
+    left: 70%;
+
+    background-image: url(/proyecto/images/circle.png);
+}
+
+
+#skin4{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 56%;
+    left: 5%;
+
+    background-image: url(/proyecto/images/circle.png);
+}
+
+
+#skin5{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 56%;
+    left: 37.6%;
+    
+    background-image: url(/proyecto/images/circle.png);
+}
+
+
+#skin6{
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    top: 56%;
+    left: 70%;
+
+    background-image: url(/proyecto/images/circle.png);
+}
+
+#p1{
+    position: absolute;  
+    width: 57%;
+    top: 10%;
+    left: -10.5%;
+    font-size: 17px;
+}
+#p2{
+    position: absolute;  
+    width: 57%;
+    top: 10%;
+    left: 22%;
+    font-size: 17px;
+}
+#p3{
+    position: absolute;  
+    width: 57%;
+    top: 10%;
+    left: 54%;
+    font-size: 17px;
+}
+#p4{
+    position: absolute;  
+    width: 57%;
+    top: 56%;
+    left: -10.5%;
+    font-size: 17px;
+}
+#p5{
+    position: absolute;  
+    width: 57%;
+    top: 56%;
+    left: 22%;
+    font-size: 17px;
+}
+#p6{
+    position: absolute;  
+    width: 57%;
+    top: 56%;
+    left: 54%;
+    font-size: 17px;
+}
+
+
+.s{
+    background-size: 170%;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: #c1d7db;
+    background-position: 46.5%;
+    transition-duration: 0.5s;
+}
+.s:hover{
+    background-size: 180%;
+}
+
+.s1{
+    background-color: green;
+}
+.s2{
+    background-color: red;
+}
+
+#skinButton{
+    position: absolute;
+    height: 8%;
+    width: 80%;
+    top: 74%;
+    left: 10%;
+
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+}
+#skinButton:hover{
+    background-color: #544949;
+    color: white;
+}
+#skinButton:active{
+    background-color: #ffffff;
+}
+
+#logout{
+    position: absolute;
+    width: 25%;
+    top: 3%;
+    left: 70%;
+
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+}
+#logout:hover{
+    background-color: #544949;
+    color: white;
+}
+#logout:active{
+    background-color: #ffffff;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+
+
+#name{
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    font-size: 30px;
+}
